@@ -44,7 +44,17 @@ from one real run: a pillow-block bearing unit (housing + cap + base plate).
 | `programs/tap_m8.nc` | 14 blocks, M8×1.25 tapping w/ pitch check; simulated — 2,792 voxels removed |
 | `programs/BLOCK-receipt.json` | Our own validator **refused** the naive end-mill-only Ø40 H6 plan |
 | `programs/PASS-receipt.json` | Corrected bore+hone+CMM plan passes, hazard honestly still flagged |
+| `verifiers/verify_pillow_block.py` | Runnable mesh verifier — `python verifiers/verify_pillow_block.py` from a clean clone |
+| `validators/validate_tolerance_risk.py` | Runnable **manufacturing-plan risk linter** — reproduces BLOCK (exit 1) / PASS (exit 0) from public job cards |
+| `validators/REPRODUCE.md` | Exact clean-clone commands and expected output |
 | `packets/` | Per-part DFM packets + assembly manifest — every number reproduced; estimates labeled as estimates |
+
+## Evidence class
+
+- **Geometry-verified:** the three STL meshes pass the published watertight/bounding-box/bore verifier.
+- **Process-reviewed:** the public RUE-019 manufacturing-plan linter reproduces the BLOCK→PASS verdicts.
+- **Strategy-simulated:** the advisory NC programs are parser/stock-simulation inputs; they are **not** posted CAM, machine-kinematics verified, or production-approved.
+- **Not yet proven:** machine capability, postprocessor output, physical machining, CMM/metrology, bearing selection from a cited catalog, and a production design load case.
 
 ## The honest flex
 

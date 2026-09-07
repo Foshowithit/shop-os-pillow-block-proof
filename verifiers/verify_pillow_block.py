@@ -4,7 +4,8 @@
 Bore check (programmatic, no eyeballing): vertices near the bore axis with
 radius ~= 20 mm are bore-surface verts; fitted diameter must be 40.0 +/- 0.6
 (mesh tol 0.5). Housing bore axis: (x=50, z=30) along Y; cap: (x=50, z=0).
-Run: .venv/bin/python artifacts/shop-os/cad/pillow_block/verify_pillow_block.py
+Run from the repo root: python verifiers/verify_pillow_block.py
+Needs: numpy, trimesh (pip install numpy trimesh).
 """
 import sys
 from pathlib import Path
@@ -12,7 +13,7 @@ from pathlib import Path
 import numpy as np
 import trimesh
 
-D = Path(__file__).resolve().parent
+D = Path(__file__).resolve().parent / ".." / "models"
 EXPECT_BBOX = {
     "housing": (100.0, 80.0, 30.0),
     "cap": (100.0, 80.0, 20.0),
