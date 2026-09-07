@@ -1,0 +1,44 @@
+{
+  "schema": "tolerance-risk-validation-v1",
+  "generated_at": "2026-09-07T05:19:55.714482+00:00",
+  "job_dir": "artifacts/shop-os/cad/pillow_block/rue019-corrected",
+  "machine_execution": false,
+  "production_authorization": false,
+  "qualified_machinist_review_required": true,
+  "material": "4140 Alloy Steel (pre-hardened)",
+  "result": "PASS",
+  "tolerance_hazard": true,
+  "reason": "Tight-tolerance hazard detected (H6 / tight band / Ra / true position) but the card plans for it: multi-pass finishing, tolerance-capable tooling, surface-finish / runout awareness. Advisory review still required.",
+  "required_controls": [],
+  "detail": {
+    "tight_grades": [
+      "h6"
+    ],
+    "tightest_band_mm": 0.016,
+    "tightest_band_diameter_mm": 40.0,
+    "tight_band_threshold_mm": 0.05,
+    "tight_band_ratio": 0.0008,
+    "surface_finish_ra": 0.8,
+    "surface_finish_threshold_ra": 0.8,
+    "true_position_mm": null,
+    "true_position_threshold_mm": 0.05
+  },
+  "response": {
+    "adequate": true,
+    "present_markers": [
+      "rough",
+      "semi-finish",
+      "finish",
+      "spring_pass",
+      "multi-pass",
+      "fine boring",
+      "boring head",
+      "adjustable reamer",
+      "runout",
+      "surface finish",
+      "surface_finish"
+    ],
+    "missing": []
+  },
+  "safety_notice": "ADVISORY ONLY \u2014 machine_execution=false. No controller connection. No production authorization. Qualified machinist review required."
+}

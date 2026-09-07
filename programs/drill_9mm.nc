@@ -1,0 +1,11 @@
+(ADVISORY ONLY - NOT FOR MACHINE EXECUTION)
+(base plate 120x100x12: 4x Dia9 corner mounting holes)
+(positions assumed at 15mm insets - engineering assumption)
+G21 G90
+G0 X15.000 Y15.000 Z30.000
+G81 X15.000 Y15.000 Z-2.000 R14.000 F180.0
+X105.000 Y15.000 Z-2.000
+X15.000 Y85.000 Z-2.000
+X105.000 Y85.000 Z-2.000
+G80
+M30

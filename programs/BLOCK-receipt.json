@@ -1,0 +1,44 @@
+{
+  "schema": "tolerance-risk-validation-v1",
+  "generated_at": "2026-09-07T05:19:48.255936+00:00",
+  "job_dir": "artifacts/shop-os/cad/pillow_block/rue019-block",
+  "machine_execution": false,
+  "production_authorization": false,
+  "qualified_machinist_review_required": true,
+  "material": "4140 Alloy Steel (pre-hardened)",
+  "result": "BLOCK",
+  "tolerance_hazard": true,
+  "reason": "Tight-tolerance process gap: tight ISO grade (h6); tolerance band 0.016 mm (< 0.050 mm); surface finish Ra 0.8 (<= 0.8). A standard drill/ream cycle cannot hold this tolerance \u2014 the card lacks a complete process response. Missing: tolerance-capable tooling (fine boring / adjustable reamer / honing). Recommend rough -> semi-finish -> finish (spring pass optional), fine-boring/adjustable-reamer tooling, runout budget vs the tolerance band, and surface-finish planning.",
+  "required_controls": [
+    "detect tight ISO tolerance grades (H6 / H5 / H4) on bores/shafts and escalate to a multi-pass process plan (rough -> semi-finish -> finish, optional spring pass)",
+    "verify selected tooling can hold the tolerance (fine boring head, adjustable reamer, or honing \u2014 never a standard reamer without capability check)",
+    "flag surface-finish requirements (Ra <= 0.8 um) and plan finish passes to meet them",
+    "budget tool runout against the tolerance band and flag if the machine/spindle cannot reasonably hold it",
+    "respect true-position callouts (<= 0.05 mm) with a location/qualification strategy (datum bore reaming, probing)"
+  ],
+  "detail": {
+    "tight_grades": [
+      "h6"
+    ],
+    "tightest_band_mm": 0.016,
+    "tightest_band_diameter_mm": 40.0,
+    "tight_band_threshold_mm": 0.05,
+    "tight_band_ratio": 0.0008,
+    "surface_finish_ra": 0.8,
+    "surface_finish_threshold_ra": 0.8,
+    "true_position_mm": null,
+    "true_position_threshold_mm": 0.05
+  },
+  "response": {
+    "adequate": false,
+    "present_markers": [
+      "rough",
+      "finish",
+      "surface_finish"
+    ],
+    "missing": [
+      "tolerance-capable tooling (fine boring / adjustable reamer / honing)"
+    ]
+  },
+  "safety_notice": "ADVISORY ONLY \u2014 machine_execution=false. No controller connection. No production authorization. Qualified machinist review required."
+}
