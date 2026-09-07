@@ -1,0 +1,22 @@
+material:
+  name: "4140 Alloy Steel (pre-hardened)"
+stock:
+  width: 100.0
+  depth: 80.0
+  height: 30.0
+tolerances:
+  general: 0.1
+  bore_h6:
+    diameter: 40.0
+    upper_deviation: 0.016
+    lower_deviation: 0.000
+    fit: "H6"
+    surface_finish_ra: 0.8
+features:
+  critical_bore:
+    diameter: 40.0
+    depth: 80.0
+    tolerance_grade: "H6"
+    process_plan: "rough + finish with 20mm end mill only, full slot conventional"
+response:
+  tooling: "20 mm carbide end mill, single setup"
