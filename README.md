@@ -1,5 +1,9 @@
 # Shop OS — Pillow-Block Proof
 
+![Shop OS — Pillow-Block Proof](images/hero-banner.png)
+
+[![Advisory only](https://img.shields.io/badge/status-advisory_only-amber)](packets/ASSEMBLY.md) [![Independently verified](https://img.shields.io/badge/review-verdict_legit-teal)](packets/ASSEMBLY.md) [![License: MIT](https://img.shields.io/badge/license-MIT-green)](LICENSE)
+
 One sentence in. Three engineered parts out. **Measure them yourself.**
 
 > Full run (28 s): one click → agent run → live interactive 3D part card in chat.
