@@ -2,7 +2,19 @@
 
 One sentence in. Three engineered parts out. **Measure them yourself.**
 
-<video src="video/shopos-hero-28s.mp4" width="100%"></video>
+> Full run (28 s): one click → agent run → live interactive 3D part card in chat.
+> Watch: [shopos-hero-28s.mp4](https://github.com/Foshowithit/shop-os-pillow-block-proof/releases/download/v1.0-proof/shopos-hero-28s.mp4)
+
+![Live 3D part card inside the chat](images/hero-chat-3d.png)
+
+> Full arc (78 s): run → housing orbit → spacer cutaway.
+> Watch: [pillow-block-78s.mp4](https://github.com/Foshowithit/shop-os-pillow-block-proof/releases/download/v1.0-proof/pillow-block-78s.mp4)
+
+![Housing 100×80×30, Ø40 H6 bore, orbiting](images/housing-orbit.png)
+
+![Spacer clipping-plane cutaway on the real mesh](images/spacer-cutaway.png)
+> Beauty pass (30 s): orbit + cutaway.
+> Watch: [shopos-card3d-30s.mp4](https://github.com/Foshowithit/shop-os-pillow-block-proof/releases/download/v1.0-proof/shopos-card3d-30s.mp4)
 
 A shop agent takes a part description, engineers it (CAD, DFM, toolpaths,
 verification), and hands you files — not renders. This repo is the receipts
@@ -12,9 +24,9 @@ from one real run: a pillow-block bearing unit (housing + cap + base plate).
 
 | Video | What |
 |---|---|
-| `video/shopos-hero-28s.mp4` | One click → agent run → live interactive 3D part card inside the chat (28 s) |
-| `video/pillow-block-78s.mp4` | Full arc: run → housing orbit → spacer cutaway (78 s) |
-| `video/shopos-card3d-30s.mp4` | Pure 3D: orbit + clipping-plane cutaway on the real mesh (30 s) |
+| [shopos-hero-28s.mp4](https://github.com/Foshowithit/shop-os-pillow-block-proof/releases/download/v1.0-proof/shopos-hero-28s.mp4) | One click → agent run → live interactive 3D part card inside the chat (28 s) |
+| [pillow-block-78s.mp4](https://github.com/Foshowithit/shop-os-pillow-block-proof/releases/download/v1.0-proof/pillow-block-78s.mp4) | Full arc: run → housing orbit → spacer cutaway (78 s) |
+| [shopos-card3d-30s.mp4](https://github.com/Foshowithit/shop-os-pillow-block-proof/releases/download/v1.0-proof/shopos-card3d-30s.mp4) | Pure 3D: orbit + clipping-plane cutaway on the real mesh (30 s) |
 
 ## Measure it yourself
 
