@@ -46,8 +46,9 @@ change — the mating interface still closes on the housing saddle.
 Same saddle program family as the housing
 (`programs/bore_h6_advisory.nc` pattern: rough r=19.0 → semi r=19.7 →
 finish r=20.0 → spring pass → hone → CMM), mirrored to the cap's 20 mm
-thickness. No separate cap program exists in `programs/` — generating
-one is open work, not claimed here.
+thickness. What that program IS: a strategy/sequence proof (see housing
+packet). What it is NOT: posted, proven CAM for the cap — no separate
+cap program exists in `programs/`, and none is claimed here.
 
 ## Assumptions (estimates, not verified facts)
 

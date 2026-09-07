@@ -46,6 +46,11 @@ and the bore story in `ASSEMBLY.md`.
 ## Process routing (plain English)
 
 Program `programs/bore_h6_advisory.nc` (advisory reference only):
+ What this program IS: a strategy and sequence proof — the pass order,
+ tool choices, and geometry a bore+hone+CMM plan needs, verified in sim
+ (groove clears, stock kept, in-envelope SHIP).
+ What it is NOT: posted, proven CAM. No post-processor ran, no machine
+ kinematics were checked, feeds/speeds are reference values.
  datum is the housing base (Z0) with the X0Y0 corner; tools T1 D12 flat
  rougher and T2 D6 ball finisher. Four lanes across Y (10/30/50/70) cut
  the groove in three radii — rough r=19.0, semi r=19.7, finish r=20.0 —

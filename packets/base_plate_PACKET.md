@@ -51,8 +51,12 @@ not mesh-measured.
 - All six hole positions are program-header assumptions, explicitly
   marked "(positions assumed - engineering assumption)" in the .nc
   files. They are not measured from the mesh and not approved.
-- Feeds/speeds (F180/F150/F1000, S800) are reference values; prove on
-  the machine.
+- What the drill/tap programs IS: strategy/sequence proofs (hole order,
+  canned cycles, tap pitch consistency), verified in sim (holes clear,
+  lands kept, in-envelope SHIP). What they are NOT: posted, proven CAM
+  — no post-processor ran and no machine kinematics were checked.
+- Feeds/speeds (F180/F150/F1000, S800/S1200/S1500) are reference values;
+  prove on the machine.
 
 ## Verification
 

@@ -49,3 +49,7 @@ All validator JSONs carry `machine_execution: false`,
 - No cap-specific validator run; no cap-specific .nc program.
 - Base-plate hole positions/threads are program assumptions, unapproved.
 - No costs, no cycle times, no feeds/speeds proven — all open.
+- Plain version of the above: every .nc here IS a strategy and sequence
+  proof (what order, what tools, what geometry — checked in sim); none
+  of them IS posted, proven CAM (no post-processor, no machine kinematics,
+  nothing here runs a spindle).
